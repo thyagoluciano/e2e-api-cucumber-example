@@ -1,15 +1,19 @@
 {
-  "name": "e2e-api-cucumber-exemple",
+  "name": "e2e-api-cucumber-example",
   "version": "1.0.0",
-  "description": "Exemplo de uso da biblioteca e2e-api-cucumber=example",
+  "description": "Exemplo de uso da biblioteca e2e-api-cucumber-example",
   "main": "index.js",
   "scripts": {
     "test": "AMBIENTE=default cucumber-js"
   },
-  "author": "",
+  "author": "Thyago Luciano <thyagoluciano@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thyagoluciano/e2e-api-cucumber-example.git"
+  },
   "license": "ISC",
   "dependencies": {
     "dotenv": "^4.0.0",
-    "e2e-api-cucumber": "0.0.9"
+    "e2e-api-cucumber": "0.0.10"
   }
 }
