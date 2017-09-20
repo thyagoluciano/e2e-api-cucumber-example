@@ -1,0 +1,15 @@
+{
+  "name": "e2e-api-cucumber-exemple",
+  "version": "1.0.0",
+  "description": "Exemplo de uso da biblioteca e2e-api-cucumber=example",
+  "main": "index.js",
+  "scripts": {
+    "test": "AMBIENTE=default cucumber-js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "e2e-api-cucumber": "0.0.9"
+  }
+}
